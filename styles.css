@@ -1,9 +1,4 @@
 
-body, h1, h2, h3, h4, h5, h6, p, a, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
@@ -16,7 +11,7 @@ header {
   text-align: center;
 }
 
-.logo img {
+.logo #logo_img {
   max-width: 100px;
 }
 
@@ -71,7 +66,6 @@ nav ul li a {
   padding: 10px 0;
   text-decoration: none;
   margin-top: 10px;
-  transition: background-color 0.3s ease;
 }
 
 .course a:hover {

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Online Courses</title>
     <link rel="icon" href="logo.png">
@@ -8,41 +9,64 @@
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="logo" id="logo_img">
+            <img src="images/logo.png" alt="logo" id="logo_img">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About us</a>
+                </li>
             </ul>
         </nav>
     </header>
-
-    <div class="main-content">
+    
+    <div class="container mt-5">
         <h1>A BILLION COURSES</h1>
-        <p>Here you can buy a variety of courses ranging from preparation for school subjects to <strong>programming courses</strong> </p>
+        <p>Here you can buy a variety of courses ranging from preparation for school subjects to <strong>programming courses</strong></p>
 
-        <div class="course">
-            <img src="course1.png">
-            <h2>Mastering Frontend Development</h2>
-            <p>Welcome to the ultimate journey in frontend development! In the "Mastering Frontend Development with HTML, CSS, JavaScript, and TypeScript" course, you will embark on a comprehensive and hands-on exploration of the fundamental technologies that power the modern web.</p>
-            <a href="#">54.99&euro;</a>
+        <div class="row">
+            <div class="col">
+                <div class="course">
+                    <img src="images/course1.png">
+                    <h2>Mastering Frontend Development</h2>
+                    <p>Welcome to the ultimate journey in frontend development! In the "Mastering Frontend Development with HTML, CSS, JavaScript, and TypeScript" course, you will embark on a comprehensive and hands-on exploration of the fundamental technologies that power the modern web.</p>
+                    <a href="#" class="btn btn-primary">54.99&euro;</a>
+                </div>
+            </div>
         </div>
-
-        <div class="course">
-            <img src="course2.png">
-            <h2>Mastering Mobile Photography and Stabilization Techniques</h2>
-            <p>Welcome to the world of Mobilography, where your smartphone becomes a powerful tool for capturing stunning photos and videos like a pro. In the "Mastering Mobile Photography and Stabilization Techniques" course, you will discover the art and science of creating visually captivating content with your mobile device.</p>
-            <a href="#">34.99&euro;</a>
+        <div class="row">
+            <div class="col">
+                <div class="course">
+                    <img src="images/course2.png">
+                    <h2>Mastering Mobile Photography and Stabilization Techniques</h2>
+                    <p>Welcome to the world of Mobilography, where your smartphone becomes a powerful tool for capturing stunning photos and videos like a pro. In the "Mastering Mobile Photography and Stabilization Techniques" course, you will discover the art and science of creating visually captivating content with your mobile device.</p>
+                    <a href="#" class="btn btn-primary">34.99&euro;</a>
+                </div>
+            </div>
         </div>
-
-        <div class="course">
-            <img src="course3.webp">
-            <h2>Comprehensive Photoshop and Design Mastery</h2>
-            <p>Unlock your creative potential and become a design virtuoso with our "Comprehensive Photoshop and Design Mastery" course. Whether you're a novice looking to master the basics or an experienced designer aiming to refine your skills, this course is your gateway to the captivating world of digital design using Adobe Photoshop.</p>
-            <a href="#">79.99&euro;</a>
+        <div class="row">
+            <div class="col">
+                <div class="course">
+                    <img src="images/course3.webp">
+                    <h2>Comprehensive Photoshop and Design Mastery</h2>
+                    <p>Unlock your creative potential and become a design virtuoso with our "Comprehensive Photoshop and Design Mastery" course. Whether you're a novice looking to master the basics or an experienced designer aiming to refine your skills, this course is your gateway to the captivating world of digital design using Adobe Photoshop.</p>
+                    <a href="#" class="btn btn-primary">79.99&euro;</a>
+                </div>
+            </div>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
