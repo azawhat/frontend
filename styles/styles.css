@@ -1,0 +1,125 @@
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+}
+
+.logo #logo_img {
+  max-width: 78px;
+  float: left;
+  margin-left: 0px 0px 0px 30px;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  clear: both;
+}
+
+.course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course h2 {
+  margin-top: 10px;
+}
+
+.course p {
+  color: #666;
+  margin-top: 10px;
+}
+
+.course a {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.course a:hover {
+  background-color: #555;
+}
+
+.tab {
+  background-color: #a9adb0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 18px;
+}
+
+.tab button:hover {
+  background-color: #3c4d5f;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tabcontent {
+  display: none;
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  font-size: 16px;
+}
+
+.tabcontent.active {
+  display: block;
+}

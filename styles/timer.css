@@ -1,0 +1,35 @@
+/* Add this CSS to your existing styles.css or a new stylesheet */
+.countdown-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #060606;
+    padding: 40px;
+    border-radius: 10px;    
+}
+
+.countdown-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-item {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.countdown-item span {
+    background-color: #fff;
+    color: #000000;
+    font-size: 2em;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}

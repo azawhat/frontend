@@ -2,9 +2,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>About Us</title>
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="images/logo.png">
 </head>
 <body>
     <header>
@@ -27,7 +27,8 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header>  
+
 
     <div class="container mt-5">
         <div class="card mb-3">
@@ -44,6 +45,19 @@
             </div>
         </div>
 
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Goal')">Our Goal</button>
+            <button class="tablinks" onclick="openCity(event, 'Story')">Our Story</button>
+        </div>
+        <div class="tabcontent" id="Goal">
+            <h3>Our Goal</h3>
+            <p>Our goal is to create a website accessible to everyone where you can buy online courses that will help our users develop and grow. Create and sell courses at publicly available prices so that all people from different parts of the world can study.</p>
+        </div>
+        <div class="tabcontent" id="Story">
+            <h3>Our Story</h3>
+            <p>Our story begins from the depths of the garage like all the IT giants of the world (joke). In fact, it all started with a university course and continues to this day</p>
+        </div>
+        
         <h1>Our Sponsors</h1>
         <div class="row">
             <div class="col-md-6">
@@ -75,7 +89,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/achive1.png"d-block w-100" alt="Achievement 1">
+                    <img src="images/achive1.png" clsas="d-block w-100" alt="Achievement 1">
                 </div>
                 <div class="carousel-item">
                     <img src="images/achive2.png" class="d-block w-100" alt="Achievement 2">
@@ -91,11 +105,47 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
         </div>
-        <button class="btn btn-primary">Learn more <span class="badge bg-secondary"> (didnt add yet)</span></button>
-    </div>
 
+        <h2 style="margin-top: 20px;">FAQs</h2>
+        <div id="faqAccordion" class="accordion">
+            <div class="card">
+                <div class="card-header" id="faqHeading1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                            When will other courses be added?
+                        </button>
+                    </h2>
+                </div>
+                <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        As soon as they are ready I will upload them to the website
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="faqHeading2">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                            When will there be discounts?
+                        </button>
+                    </h2>
+                </div>
+                <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Discounts in plans to do as quizzes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript/about_us.js"></script>
+
 </body>
 </html>
+
+
