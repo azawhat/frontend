@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // time that is needed to countdown back
-    const targetDate = new Date("2023-11-01T00:00:00").getTime();
+    const targetDate = new Date("2025-11-01T00:00:00").getTime();
 
     const countdownContainer = document.getElementById("countdown-timer");
 

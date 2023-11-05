@@ -1,4 +1,12 @@
-function openCity(evt, cityName) {
+const learnMoreButton = document.getElementById("learn-more-button");
+
+learnMoreButton.addEventListener("click", () => {
+    alert("Since you are interested in us, we have for you a short quiz where you can get a discount.");
+    window.location.href = "discountQuiz.html";
+});
+
+
+function openTab(evt, cityName) {
     var i, tabcontent, tablinks;
   
     // hide all tabcontent
@@ -16,4 +24,6 @@ function openCity(evt, cityName) {
     // show current tab, make active new tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
+}
+
+
