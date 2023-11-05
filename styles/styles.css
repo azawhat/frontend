@@ -1,9 +1,16 @@
-
 body {
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
 }
+.website-name {
+  margin-left: 10px;
+  text-align: left; 
+}
 
+.website-name a {
+  text-decoration: none;
+  color: #000; 
+}
 header {
   background-color: #f2f2f2;
   color: #fff;
@@ -123,3 +130,6 @@ nav ul li a {
 .tabcontent.active {
   display: block;
 }
+
+
+
