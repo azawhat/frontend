@@ -5,13 +5,15 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/toDo.css">
     <link rel="stylesheet" type="text/css" href="styles/timer.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
     <title>Online Courses</title>
     <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="images/logo.png" alt="logo" id="logo_img">
+            <img src="images/logo.png" alt="logo" id="logo_img" class="img-fluid">
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="website-name">
@@ -30,6 +32,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about_us.html">About us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -37,18 +42,22 @@
     <div class="countdown-container">
         <h2>Coming Soon!</h2>
         <div class="countdown-timer" id="countdown-timer">
+
             <div class="countdown-item">
                 <span id="days">00</span>
                 <p>Days</p>
             </div>
+
             <div class="countdown-item">
                 <span id="hours">00</span>
                 <p>Hours</p>
             </div>
+
             <div class="countdown-item">
                 <span id="minutes">00</span>
                 <p>Minutes</p>
             </div>
+
             <div class="countdown-item">
                 <span id="seconds">00</span>
                 <p>Seconds</p>
@@ -70,6 +79,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col">
                 <div class="course">
@@ -80,6 +90,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col">
                 <div class="course">
@@ -90,21 +101,46 @@
                 </div>
             </div>
         </div>
+        
         <div id="todo-list">
-            <h3>To not forget what to do in a website.</h3>
+            <h3>To-Do list and Scroll-to-top button.</h3>
             <ul id="task-list">
             </ul>
             <input type="text" id="task-input">
             <button id="add-task" class="btn btn-primary">Add Task</button>
+            <button id="scroll-to-top" class="btn btn-secondary">Scroll to Top</button>
         </div>
     </div>
 
-    
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-info">
+                <h4>A Billion Courses</h4>
+                <p>Our task is to create and sell affordable courses for everyone. In the near future we want to achieve hundreds of thousand courses by making them. We are waiting for the big compaines to make a partnership, call us anytime you want! See ya! </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-links text-right">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="about_us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="register.html">Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="javascript/timer.js"></script>
     <script src="javascript/toDo.js"></script>
+
 </body>
 
 </html>
