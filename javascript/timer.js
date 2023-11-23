@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // time that is needed to countdown back
-    const targetDate = new Date("2025-11-01T00:00:00").getTime();
+    const targetDate = new Date("2023-12-01T00:00:00").getTime();
 
     const countdownContainer = document.getElementById("countdown-timer");
 
@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
         if (timeRemaining <= 0) {
             countdownContainer.style.display = "none";
             clearInterval(timerInterval);
-        } else {
+        } 
+        else {
             // remaining time
             const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
             const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));

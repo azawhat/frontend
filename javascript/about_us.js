@@ -5,6 +5,9 @@ learnMoreButton.addEventListener("click", () => {
     window.location.href = "discountQuiz.html";
 });
 
+function nalert() {
+  alert("You have found an easter egg, this is a gift from the developer. By completing the task you can get promo code!");
+}
 
 function openTab(evt, cityName) {
     var i, tabcontent, tablinks;

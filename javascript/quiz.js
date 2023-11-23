@@ -1,4 +1,4 @@
-const questions = [
+const questions = [  // questions and their answers with options
     {
         question: "Who is the creator and developer of the website?",
         options: ["Angsar", "Amir", "Sanzhar", "Azamat"],
@@ -28,6 +28,26 @@ const questions = [
         question: "Who is our another sponsor?",
         options: ["Samruk", "Red bull", "Nokia", "AMD"],
         correctAnswer: "Red bull",
+    },
+    {
+        question: "What price has our most expensive course?",
+        options: ["99.99", "189.99", "155.99", "199.99"],
+        correctAnswer: "199.99",
+    },
+    {
+        question: "How many courses listed in the first page??",
+        options: ["1", "2", "4", "3"],
+        correctAnswer: "3",
+    },
+    {
+        question: "How many developers worked on this project",
+        options: ["2", "3", "1", "5"],
+        correctAnswer: "1",
+    },
+    {
+        question: "How many questions in FAQs??",
+        options: ["5", "4", "2", "3"],
+        correctAnswer: "2",
     }
 ];
 
