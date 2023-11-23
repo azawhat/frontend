@@ -131,5 +131,21 @@ nav ul li a {
   display: block;
 }
 
+@media (max-width: 768px) {
 
+  .logo img {
+    margin-left: 10px; 
+  }
 
+  .navbar a {
+    padding: 10px; 
+  }
+
+  .main-content {
+    padding: 10px; 
+  }
+
+  .course {
+    padding: 10px;
+  }
+}

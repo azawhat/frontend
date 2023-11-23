@@ -76,3 +76,9 @@ h1 {
     border-radius: 5px;
     transition: width 0.3s;
 }
+
+@media (max-width: 768px) {
+    .quiz-container {
+        max-width: 100%;
+    }
+}

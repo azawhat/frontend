@@ -39,3 +39,9 @@ li:hover {
     color: #888;
 }
 
+@media (max-width: 768px) {
+    li {
+        padding: 4px;
+        margin: 4px;
+    }
+}
